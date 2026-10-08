@@ -46,7 +46,7 @@ Sacados de la ficha de Google Maps (octubre de 2026):
 
 - Número exacto de la calle (Google solo muestra "45007 Toledo"; los directorios lo sitúan en C. Río Guadarrama).
 - Carta y precios: no están publicados en internet. La sección de carta muestra los platos que destacan las reseñas y está marcada como orientativa.
-- Fotos propias del local: las actuales son ilustrativas, con licencia libre de Wikimedia Commons (créditos en el pie de la web).
+- Fotos propias del local: la galería muestra la fachada y la terraza reales con Street View incrustado de Google (enlace a las fotos de la ficha de Maps). Las fotos del carrusel son ilustrativas, con licencia libre de Wikimedia Commons; conviene cambiarlas por fotos cedidas por el bar con los mismos nombres de archivo.
 
 ## Créditos de fotos (Wikimedia Commons)
 
