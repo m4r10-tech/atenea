@@ -1,0 +1,10 @@
+{
+  "name": "atenea",
+  "private": true,
+  "scripts": {
+    "preview": "serve . -l 4173"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}

@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Cervecería Atenea · Polígono de Toledo</title>
+  <meta name="description" content="Cervecería Atenea, en el Polígono de Santa María de Benquerencia (Toledo). Desayunos, cañas, tapas y raciones. Abierto de 8:15 a 24:00, martes descanso. Tel. 925 23 27 50.">
+  <meta name="theme-color" content="#16120d">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2316120d'/%3E%3Cpath d='M20 48 32 14l12 34M24.5 36h15' fill='none' stroke='%23e3a63a' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..800;1,9..144,300..700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/grifo.jpg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+      <symbol id="i-route" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+      <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 10h17M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+      <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 2.7 5.6 6.1.8-4.5 4.2 1.1 6L12 16.7 6.6 19.6l1.1-6-4.5-4.2 6.1-.8Z" fill="currentColor"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-left" viewBox="0 0 24 24"><path d="m14.5 6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-right" viewBox="0 0 24 24"><path d="m9.5 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    </defs>
+  </svg>
+
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="brand" href="#inicio" aria-label="Cervecería Atenea, inicio">
+        <span class="brand__mark" aria-hidden="true">A</span>
+        <span class="brand__text"><small>Cervecería</small>Atenea</span>
+      </a>
+      <nav class="nav__links" aria-label="Secciones">
+        <a href="#horario">Horario</a>
+        <a href="#carta">Carta</a>
+        <a href="#galeria">Galería</a>
+        <a href="#resenas">Reseñas</a>
+        <a href="#reservas">Reservas</a>
+        <a href="#llegar">Cómo llegar</a>
+      </nav>
+      <a class="nav__call" href="tel:+34925232750">
+        <svg aria-hidden="true"><use href="#i-phone"/></svg><span>925 23 27 50</span>
+      </a>
+      <button class="nav__burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="menu" id="menu" hidden>
+    <nav aria-label="Menú">
+      <a href="#horario"><span>01</span>Horario</a>
+      <a href="#carta"><span>02</span>Carta</a>
+      <a href="#galeria"><span>03</span>Galería</a>
+      <a href="#resenas"><span>04</span>Reseñas</a>
+      <a href="#reservas"><span>05</span>Reservas</a>
+      <a href="#llegar"><span>06</span>Cómo llegar</a>
+    </nav>
+    <div class="menu__foot">
+      <p>C. Río Guadarrama · Polígono<br>45007 Toledo</p>
+      <a href="tel:+34925232750">925 23 27 50</a>
+    </div>
+  </div>
+
+  <main id="contenido">
+    <!-- INICIO -->
+    <section class="hero" id="inicio">
+      <div class="hero__media" aria-hidden="true">
+        <img src="assets/img/grifo.jpg" alt="" fetchpriority="high">
+      </div>
+      <div class="hero__shade" aria-hidden="true"></div>
+      <div class="hero__inner">
+        <p class="eyebrow hero__eyebrow" data-anim="1">Polígono · Santa María de Benquerencia · Toledo</p>
+        <h1 class="hero__title">
+          <span class="line"><span data-anim="2">Cervecería</span></span>
+          <span class="line"><em data-anim="3">Atenea</em></span>
+        </h1>
+        <p class="hero__lead" data-anim="4">Cañas bien tiradas, buen pincho y raciones para compartir. De primera hora de la mañana a medianoche, en el barrio de siempre.</p>
+
+        <div class="status-pill" data-status-pill data-anim="5" aria-live="polite">
+          <span class="dot"></span><span data-status-text>Comprobando horario…</span>
+        </div>
+
+        <div class="hero__cta" data-anim="6">
+          <a class="btn btn--amber" href="tel:+34925232750"><svg aria-hidden="true"><use href="#i-phone"/></svg>Llamar</a>
+          <a class="btn btn--glass" href="#reservas"><svg aria-hidden="true"><use href="#i-cal"/></svg>Reservar mesa</a>
+          <a class="btn btn--glass" href="#llegar"><svg aria-hidden="true"><use href="#i-route"/></svg>Cómo llegar</a>
+        </div>
+      </div>
+
+      <dl class="hero__facts" data-anim="7">
+        <div><dt>Valoración en Google</dt><dd><span data-count="4.0" data-decimals="1">4,0</span><svg aria-hidden="true"><use href="#i-star"/></svg></dd></div>
+        <div><dt>Reseñas</dt><dd data-count="226">226</dd></div>
+        <div><dt>Abrimos</dt><dd>8:15</dd></div>
+        <div><dt>Días a la semana</dt><dd data-count="6">6</dd></div>
+      </dl>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>Desayunos</span><i></i><span>Cañas</span><i></i><span>Tapas</span><i></i><span>Raciones</span><i></i><span>Terraza</span><i></i><span>Desde las 8:15</span><i></i>
+        <span>Desayunos</span><i></i><span>Cañas</span><i></i><span>Tapas</span><i></i><span>Raciones</span><i></i><span>Terraza</span><i></i><span>Desde las 8:15</span><i></i>
+      </div>
+    </div>
+
+    <!-- ABIERTO / CERRADO + HORARIO -->
+    <section class="section section--cream" id="horario">
+      <div class="wrap">
+        <header class="head reveal">
+          <p class="eyebrow">Ahora mismo</p>
+          <h2>¿Abierto o cerrado?</h2>
+          <p class="head__sub">Calculado en directo con la hora de Toledo.</p>
+        </header>
+
+        <div class="live">
+          <article class="live__card reveal" data-status-card>
+            <div class="live__top">
+              <span class="live__badge" data-status-badge>—</span>
+              <span class="live__clock"><svg aria-hidden="true"><use href="#i-clock"/></svg><span data-local-time>--:--</span> en Toledo</span>
+            </div>
+            <p class="live__label" data-countdown-label>Calculando…</p>
+            <div class="live__count" data-countdown aria-live="off">
+              <div><b data-h>00</b><span>horas</span></div>
+              <div><b data-m>00</b><span>min</span></div>
+              <div><b data-s>00</b><span>seg</span></div>
+            </div>
+            <div class="live__bar" aria-hidden="true"><span data-progress></span></div>
+            <div class="live__scale" aria-hidden="true"><span>8:15</span><span>12:00</span><span>16:00</span><span>20:00</span><span>24:00</span></div>
+            <p class="live__note" data-status-note></p>
+          </article>
+
+          <div class="week reveal">
+            <h3 class="week__title">Horario semanal</h3>
+            <ol class="week__list" data-week>
+              <li data-day="1"><span>Lunes</span><span>8:15 – 24:00</span></li>
+              <li data-day="2" class="is-closed"><span>Martes</span><span>Descanso</span></li>
+              <li data-day="3"><span>Miércoles</span><span>8:15 – 24:00</span></li>
+              <li data-day="4"><span>Jueves</span><span>8:15 – 24:00</span></li>
+              <li data-day="5"><span>Viernes</span><span>8:15 – 24:00</span></li>
+              <li data-day="6"><span>Sábado</span><span>8:15 – 24:00</span></li>
+              <li data-day="0"><span>Domingo</span><span>8:15 – 24:00</span></li>
+            </ol>
+            <p class="week__foot">En festivos el horario puede variar. Ante la duda, llama al <a href="tel:+34925232750">925 23 27 50</a>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- UN DÍA EN ATENEA -->
+    <section class="section section--ink day" aria-labelledby="day-title">
+      <div class="wrap">
+        <header class="head head--light reveal">
+          <p class="eyebrow">De la mañana a la noche</p>
+          <h2 id="day-title">Un día en Atenea</h2>
+        </header>
+        <div class="day__grid">
+          <article class="moment reveal">
+            <figure><img src="assets/img/desayuno.jpg" alt="Café con leche con tostada de tomate y jamón" loading="lazy" width="1400" height="1050"></figure>
+            <p class="moment__time">8:15</p>
+            <h3>Desayunos</h3>
+            <p>Café, tostadas y la barra lista desde primera hora. Es de lo más comentado en las reseñas.</p>
+          </article>
+          <article class="moment reveal">
+            <figure><img src="assets/img/fritura.jpg" alt="Fritura de pescado en plato" loading="lazy" width="1400" height="1050"></figure>
+            <p class="moment__time">13:30</p>
+            <h3>Raciones</h3>
+            <p>Fritura de pescado, chipirones, venado… raciones para compartir a mediodía o a la hora de la cena.</p>
+          </article>
+          <article class="moment reveal">
+            <figure><img src="assets/img/terraza.jpg" alt="Cañas y pinchos en una mesa de terraza" loading="lazy" width="1400" height="1050"></figure>
+            <p class="moment__time">20:00</p>
+            <h3>Cañas y terraza</h3>
+            <p>La caña bien tirada, en barra o fuera, hasta medianoche. Sin prisas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARTA -->
+    <section class="section section--cream" id="carta">
+      <div class="wrap">
+        <header class="head reveal">
+          <p class="eyebrow">Carta</p>
+          <h2>Lo que más se pide</h2>
+          <p class="head__sub">Platos que los clientes destacan en sus reseñas. La carta completa, con precios, está en el local.</p>
+        </header>
+
+        <div class="tabs reveal" role="tablist" aria-label="Momentos de la carta">
+          <button role="tab" aria-selected="true" data-filter="todo">Todo</button>
+          <button role="tab" aria-selected="false" data-filter="raciones">Raciones</button>
+          <button role="tab" aria-selected="false" data-filter="tapas">Tapas y tostas</button>
+          <button role="tab" aria-selected="false" data-filter="desayunos">Desayunos</button>
+        </div>
+
+        <div class="dishes" data-dishes>
+          <article class="dish reveal" data-cat="tapas">
+            <figure><img src="assets/img/venado.jpg" alt="Tapa de venado guisado con patatas" loading="lazy" width="1400" height="788"></figure>
+            <div class="dish__body">
+              <h3>Tosta de venado</h3>
+              <p>“Realmente increíble”, según quien la ha probado. El plato más nombrado en las reseñas.</p>
+              <span class="tag">Favorita en reseñas</span>
+            </div>
+          </article>
+          <article class="dish reveal" data-cat="raciones">
+            <figure><img src="assets/img/fritura.jpg" alt="Fritura variada de pescado" loading="lazy" width="1400" height="1050"></figure>
+            <div class="dish__body">
+              <h3>Fritura de pescado</h3>
+              <p>Pescado frito, crujiente y para el centro de la mesa. “Buenísima”.</p>
+              <span class="tag">Para compartir</span>
+            </div>
+          </article>
+          <article class="dish reveal" data-cat="raciones">
+            <figure><img src="assets/img/chipirones.jpg" alt="Chipirones a la plancha con ajo y perejil" loading="lazy" width="1400" height="1050"></figure>
+            <div class="dish__body">
+              <h3>Chipirones</h3>
+              <p>Otro de los platos que más se repiten en las opiniones de los clientes.</p>
+              <span class="tag">Ración</span>
+            </div>
+          </article>
+          <article class="dish reveal" data-cat="raciones">
+            <figure><img src="assets/img/croquetas.jpg" alt="Croquetas caseras" loading="lazy" width="1400" height="1050"></figure>
+            <div class="dish__body">
+              <h3>Croquetas</h3>
+              <p>Imprescindibles para picar entre varios.</p>
+              <span class="tag">Ración</span>
+            </div>
+          </article>
+          <article class="dish reveal" data-cat="raciones">
+            <figure><img src="assets/img/calamares.jpg" alt="Calamares fritos" loading="lazy" width="1400" height="933"></figure>
+            <div class="dish__body">
+              <h3>Calamares</h3>
+              <p>Un clásico de cervecería para acompañar la caña.</p>
+              <span class="tag">Ración</span>
+            </div>
+          </article>
+          <article class="dish reveal" data-cat="tapas">
+            <figure><img src="assets/img/tosta-jamon.jpg" alt="Tosta de jamón ibérico" loading="lazy" width="1400" height="941"></figure>
+            <div class="dish__body">
+              <h3>Tostas</h3>
+              <p>Para picar en barra, solas o con un vino.</p>
+              <span class="tag">Tosta</span>
+            </div>
+          </article>
+          <article class="dish reveal" data-cat="tapas">
+            <figure><img src="assets/img/cana.jpg" alt="Caña de cerveza con aperitivo" loading="lazy" width="1400" height="933"></figure>
+            <div class="dish__body">
+              <h3>Caña con tapa</h3>
+              <p>“Buena cerveza, buen pincho.” La caña bien tirada, como debe ser.</p>
+              <span class="tag">La de siempre</span>
+            </div>
+          </article>
+          <article class="dish reveal" data-cat="desayunos">
+            <figure><img src="assets/img/desayuno.jpg" alt="Desayuno con café y tostada" loading="lazy" width="1400" height="1050"></figure>
+            <div class="dish__body">
+              <h3>Desayunos</h3>
+              <p>Café y tostada desde las 8:15 para empezar el día en el barrio.</p>
+              <span class="tag">Desde 8:15</span>
+            </div>
+          </article>
+        </div>
+
+        <aside class="notice reveal">
+          <strong>Carta orientativa.</strong> Atenea no publica su carta en internet: trabaja con carta en el local. Precios, raciones del día y disponibilidad, en barra o llamando al <a href="tel:+34925232750">925 23 27 50</a>.
+        </aside>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="section section--ink" id="galeria">
+      <div class="wrap">
+        <header class="head head--light head--row reveal">
+          <div>
+            <p class="eyebrow">Galería</p>
+            <h2>Barra, mesa y terraza</h2>
+          </div>
+          <div class="carousel__nav">
+            <button class="round" data-prev aria-label="Foto anterior"><svg aria-hidden="true"><use href="#i-left"/></svg></button>
+            <button class="round" data-next aria-label="Foto siguiente"><svg aria-hidden="true"><use href="#i-right"/></svg></button>
+          </div>
+        </header>
+      </div>
+      <div class="carousel reveal" data-carousel tabindex="0" aria-label="Galería de fotos">
+        <figure class="slide slide--wide"><button data-lightbox="assets/img/grifo.jpg"><img src="assets/img/grifo.jpg" alt="Caña tirada directamente del grifo" loading="lazy"></button><figcaption>Del grifo</figcaption></figure>
+        <figure class="slide"><button data-lightbox="assets/img/venado.jpg"><img src="assets/img/venado.jpg" alt="Venado con patatas" loading="lazy"></button><figcaption>Venado</figcaption></figure>
+        <figure class="slide"><button data-lightbox="assets/img/terraza.jpg"><img src="assets/img/terraza.jpg" alt="Cañas en terraza" loading="lazy"></button><figcaption>Terraza</figcaption></figure>
+        <figure class="slide slide--wide"><button data-lightbox="assets/img/fritura.jpg"><img src="assets/img/fritura.jpg" alt="Fritura de pescado" loading="lazy"></button><figcaption>Fritura de pescado</figcaption></figure>
+        <figure class="slide"><button data-lightbox="assets/img/chipirones.jpg"><img src="assets/img/chipirones.jpg" alt="Chipirones" loading="lazy"></button><figcaption>Chipirones</figcaption></figure>
+        <figure class="slide"><button data-lightbox="assets/img/croquetas.jpg"><img src="assets/img/croquetas.jpg" alt="Croquetas" loading="lazy"></button><figcaption>Croquetas</figcaption></figure>
+        <figure class="slide slide--wide"><button data-lightbox="assets/img/toledo.jpg"><img src="assets/img/toledo.jpg" alt="Vista de Toledo con el Alcázar y la Catedral" loading="lazy"></button><figcaption>Toledo</figcaption></figure>
+        <figure class="slide"><button data-lightbox="assets/img/cana.jpg"><img src="assets/img/cana.jpg" alt="Caña con aperitivo" loading="lazy"></button><figcaption>La caña</figcaption></figure>
+      </div>
+      <div class="wrap">
+        <div class="carousel__progress" aria-hidden="true"><span data-carousel-progress></span></div>
+        <p class="credits-note">Fotografías ilustrativas con licencia libre (Wikimedia Commons). Créditos al pie de la página.</p>
+      </div>
+    </section>
+
+    <!-- RESEÑAS -->
+    <section class="section section--cream" id="resenas">
+      <div class="wrap">
+        <div class="reviews">
+          <div class="score reveal">
+            <p class="eyebrow">Reseñas en Google</p>
+            <p class="score__num"><span data-count="4.0" data-decimals="1">4,0</span><small>/5</small></p>
+            <div class="stars" style="--r:4" aria-label="4 de 5 estrellas">
+              <svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg>
+            </div>
+            <p class="score__count"><b data-count="226">226</b> opiniones</p>
+            <ul class="score__topics" aria-label="Temas más mencionados">
+              <li>desayunar</li><li>tapas</li><li>raciones</li><li>terraza</li>
+            </ul>
+            <a class="link" href="https://www.google.com/maps/place/Cervecer%C3%ADa+Atenea/@39.861881,-3.9428174,17z/data=!4m6!3m5!1s0xd6a08e342409fc9:0x29fa2784ca78a8e!8m2!3d39.861881!4d-3.9428174!16s%2Fg%2F11f_44qv8k" target="_blank" rel="noopener">Ver todas en Google Maps<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+
+          <div class="quotes" data-quotes>
+            <blockquote class="quote is-active">
+              <p>Buena cerveza, buen pincho y muy buena atención por parte de la camarera.</p>
+              <footer>Reseña destacada en Google</footer>
+            </blockquote>
+            <blockquote class="quote">
+              <p>La tosta de venado realmente increíble, la fritura de pescado buenísima.</p>
+              <footer>Reseña destacada en Google</footer>
+            </blockquote>
+            <blockquote class="quote">
+              <p>Un sitio tranquilo, se come bien, no es caro y el trato con el cliente es bueno. Poco más se puede pedir.</p>
+              <footer>Paco N. · Local Guide</footer>
+            </blockquote>
+            <blockquote class="quote">
+              <p>El camarero muy atento en todo momento y rápido entre plato y plato, todas las raciones estupendas. Muy aconsejable.</p>
+              <footer>David A. C.</footer>
+            </blockquote>
+            <blockquote class="quote">
+              <p>La cerveza mejor tirada de Toledo. Tapas de calidad. Un lugar en el que se puede tomar un vino de cierta calidad.</p>
+              <footer>Opinión en TodoBares</footer>
+            </blockquote>
+            <div class="quotes__dots" data-quote-dots role="tablist" aria-label="Elegir reseña"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESERVAS -->
+    <section class="section section--ink" id="reservas">
+      <div class="wrap reserve">
+        <div class="reserve__intro reveal">
+          <p class="eyebrow">Reservas</p>
+          <h2>Guarda tu mesa</h2>
+          <p>Rellena los datos y te preparamos el mensaje. La reserva se confirma por teléfono con el bar, en una llamada de un minuto.</p>
+          <ul class="reserve__facts">
+            <li><span>Teléfono</span><a href="tel:+34925232750">925 23 27 50</a></li>
+            <li><span>Horario</span>8:15 – 24:00 · martes descanso</li>
+            <li><span>Grupos</span>Llama con antelación</li>
+          </ul>
+        </div>
+
+        <form class="form reveal" id="reserva" novalidate>
+          <div class="field">
+            <label for="f-nombre">Nombre</label>
+            <input id="f-nombre" name="nombre" autocomplete="name" required minlength="2" placeholder="Tu nombre">
+            <p class="err" data-err="nombre"></p>
+          </div>
+          <div class="field field--half">
+            <label for="f-personas">Personas</label>
+            <div class="stepper">
+              <button type="button" data-step="-1" aria-label="Una persona menos">−</button>
+              <input id="f-personas" name="personas" type="number" inputmode="numeric" min="1" max="30" value="2" required>
+              <button type="button" data-step="1" aria-label="Una persona más">+</button>
+            </div>
+            <p class="err" data-err="personas"></p>
+          </div>
+          <div class="field field--half">
+            <label for="f-tel">Tu teléfono</label>
+            <input id="f-tel" name="telefono" type="tel" inputmode="tel" autocomplete="tel" required placeholder="600 000 000">
+            <p class="err" data-err="telefono"></p>
+          </div>
+          <div class="field field--half">
+            <label for="f-dia">Día</label>
+            <input id="f-dia" name="dia" type="date" required>
+            <p class="err" data-err="dia"></p>
+          </div>
+          <div class="field field--half">
+            <label for="f-hora">Hora</label>
+            <select id="f-hora" name="hora" required></select>
+            <p class="err" data-err="hora"></p>
+          </div>
+          <div class="field">
+            <label for="f-nota">Comentario <em>(opcional)</em></label>
+            <textarea id="f-nota" name="nota" rows="3" maxlength="300" placeholder="Terraza, celebración, carrito de bebé…"></textarea>
+          </div>
+          <button class="btn btn--amber btn--block" type="submit">Preparar reserva<svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          <p class="form__legal">Tus datos no se envían a ningún servidor: solo se usan para preparar la llamada.</p>
+
+          <div class="confirm" data-confirm hidden tabindex="-1">
+            <p class="eyebrow">Reserva preparada</p>
+            <p class="confirm__summary" data-summary></p>
+            <a class="btn btn--amber btn--block" href="tel:+34925232750"><svg aria-hidden="true"><use href="#i-phone"/></svg>Llamar y confirmar</a>
+            <button type="button" class="btn btn--ghost btn--block" data-copy>Copiar datos de la reserva</button>
+            <button type="button" class="link link--light" data-edit>Editar datos</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- CÓMO LLEGAR -->
+    <section class="section section--cream" id="llegar">
+      <div class="wrap">
+        <header class="head reveal">
+          <p class="eyebrow">Cómo llegar</p>
+          <h2>En pleno Polígono</h2>
+          <p class="head__sub">Junto al Parque de los Alcázares y al lado del Ahorramas de la calle Río Tajuña.</p>
+        </header>
+        <div class="map reveal">
+          <div class="map__frame">
+            <iframe title="Mapa de Cervecería Atenea" src="https://maps.google.com/maps?q=Cervecer%C3%ADa%20Atenea%2C%2045007%20Toledo&amp;ll=39.861881,-3.9428174&amp;z=16&amp;hl=es&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+          <div class="map__card">
+            <h3>Cervecería Atenea</h3>
+            <address>C. Río Guadarrama<br>Polígono de Santa María de Benquerencia<br>45007 Toledo</address>
+            <p class="map__code">Plus Code: V364+QV Toledo</p>
+            <a class="btn btn--amber btn--block" href="https://www.google.com/maps/dir/?api=1&amp;destination=39.861881%2C-3.9428174&amp;travelmode=driving" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-route"/></svg>Cómo llegar</a>
+            <a class="btn btn--line btn--block" href="tel:+34925232750"><svg aria-hidden="true"><use href="#i-phone"/></svg>925 23 27 50</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="meander" aria-hidden="true"></div>
+    <div class="wrap foot__grid">
+      <div>
+        <p class="foot__brand">Atenea</p>
+        <p class="foot__tag">Cervecería de barrio en el Polígono de Toledo.</p>
+      </div>
+      <div>
+        <h4>Dirección</h4>
+        <p>C. Río Guadarrama<br>Santa María de Benquerencia<br>45007 Toledo</p>
+      </div>
+      <div>
+        <h4>Teléfono</h4>
+        <p><a href="tel:+34925232750">925 23 27 50</a></p>
+      </div>
+      <div>
+        <h4>Horario</h4>
+        <p>Lunes, y de miércoles a domingo<br>8:15 – 24:00<br>Martes: descanso</p>
+      </div>
+    </div>
+    <div class="wrap foot__credits">
+      <p>Fotografías de Wikimedia Commons: Koriela (CC BY-SA 3.0), Tamorlan (CC BY-SA 3.0), Gordito1869 (CC BY-SA 4.0), Juan Emilio Prades Bel (CC BY 4.0), Xemenendura (CC BY-SA 3.0), M a n u e l (CC BY 2.0), Cayetano (CC BY-SA 2.0), Diliff (CC BY 2.5). Imágenes redimensionadas.</p>
+      <p>© <span data-year>2026</span> Cervecería Atenea · Toledo</p>
+    </div>
+  </footer>
+
+  <nav class="dock" aria-label="Acciones rápidas">
+    <a href="tel:+34925232750"><svg aria-hidden="true"><use href="#i-phone"/></svg>Llamar</a>
+    <a href="#reservas"><svg aria-hidden="true"><use href="#i-cal"/></svg>Reservar</a>
+    <a href="https://www.google.com/maps/dir/?api=1&amp;destination=39.861881%2C-3.9428174" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-route"/></svg>Ruta</a>
+    <a href="#horario" class="dock__status" data-dock-status><span class="dot"></span><b>Horario</b></a>
+  </nav>
+
+  <div class="lightbox" data-lb hidden>
+    <button class="round lightbox__close" data-lb-close aria-label="Cerrar foto"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+    <img alt="" data-lb-img>
+  </div>
+
+  <div class="toast" data-toast role="status" aria-live="polite"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
