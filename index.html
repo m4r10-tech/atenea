@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..800;1,9..144,300..700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="preload" as="image" href="assets/img/grifo.jpg">
+  <link rel="preload" as="image" href="assets/img/fritura.jpg">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -70,7 +70,7 @@
     <!-- INICIO -->
     <section class="hero" id="inicio">
       <div class="hero__media" aria-hidden="true">
-        <img src="assets/img/grifo.jpg" alt="" fetchpriority="high">
+        <img src="assets/img/fritura.jpg" alt="" fetchpriority="high">
       </div>
       <div class="hero__shade" aria-hidden="true"></div>
       <div class="hero__inner">
@@ -159,22 +159,19 @@
         </header>
         <div class="day__grid">
           <article class="moment reveal">
-            <figure><img src="assets/img/desayuno.jpg" alt="Café con leche con tostada de tomate y jamón" loading="lazy" width="1400" height="1050"></figure>
             <p class="moment__time">8:15</p>
             <h3>Desayunos</h3>
-            <p>Café, tostadas y la barra lista desde primera hora. Es de lo más comentado en las reseñas.</p>
+            <p>Café y la barra lista desde primera hora. “Desayunar” es de lo más comentado en las reseñas.</p>
           </article>
           <article class="moment reveal">
-            <figure><img src="assets/img/fritura.jpg" alt="Fritura de pescado en plato" loading="lazy" width="1400" height="1050"></figure>
-            <p class="moment__time">13:30</p>
+            <p class="moment__time">14:00</p>
             <h3>Raciones</h3>
-            <p>Fritura de pescado, chipirones, venado… raciones para compartir a mediodía o a la hora de la cena.</p>
+            <p>Fritura de pescado, croquetas, bravas, venado… para compartir a mediodía o a la hora de la cena.</p>
           </article>
           <article class="moment reveal">
-            <figure><img src="assets/img/terraza.jpg" alt="Cañas y pinchos en una mesa de terraza" loading="lazy" width="1400" height="1050"></figure>
-            <p class="moment__time">20:00</p>
+            <p class="moment__time">21:00</p>
             <h3>Cañas y terraza</h3>
-            <p>La caña bien tirada, en barra o fuera, hasta medianoche. Sin prisas.</p>
+            <p>La caña bien tirada, en barra o en la terraza sobre el césped, hasta medianoche.</p>
           </article>
         </div>
       </div>
@@ -185,80 +182,72 @@
       <div class="wrap">
         <header class="head reveal">
           <p class="eyebrow">Carta</p>
-          <h2>Lo que más se pide</h2>
-          <p class="head__sub">Platos que los clientes destacan en sus reseñas. La carta completa, con precios, está en el local.</p>
+          <h2>Lo que sale de cocina</h2>
+          <p class="head__sub">Platos reales de Atenea, fotografiados por sus clientes. La carta completa, con precios, está en el local.</p>
         </header>
 
-        <div class="tabs reveal" role="tablist" aria-label="Momentos de la carta">
+        <div class="tabs reveal" role="tablist" aria-label="Filtrar la carta">
           <button role="tab" aria-selected="true" data-filter="todo">Todo</button>
-          <button role="tab" aria-selected="false" data-filter="raciones">Raciones</button>
-          <button role="tab" aria-selected="false" data-filter="tapas">Tapas y tostas</button>
-          <button role="tab" aria-selected="false" data-filter="desayunos">Desayunos</button>
+          <button role="tab" aria-selected="false" data-filter="compartir">Para compartir</button>
+          <button role="tab" aria-selected="false" data-filter="platos">Platos</button>
+          <button role="tab" aria-selected="false" data-filter="tostas">Tostas</button>
         </div>
 
         <div class="dishes" data-dishes>
-          <article class="dish reveal" data-cat="tapas">
-            <figure><img src="assets/img/venado.jpg" alt="Tapa de venado guisado con patatas" loading="lazy" width="1400" height="788"></figure>
+          <article class="dish dish--feature reveal" data-cat="tostas">
             <div class="dish__body">
+              <span class="tag">La favorita de las reseñas</span>
               <h3>Tosta de venado</h3>
-              <p>“Realmente increíble”, según quien la ha probado. El plato más nombrado en las reseñas.</p>
-              <span class="tag">Favorita en reseñas</span>
+              <p>“La tosta de venado realmente increíble, la fritura de pescado buenísima.”</p>
+              <span class="dish__src">Reseña en Google</span>
             </div>
           </article>
-          <article class="dish reveal" data-cat="raciones">
-            <figure><img src="assets/img/fritura.jpg" alt="Fritura variada de pescado" loading="lazy" width="1400" height="1050"></figure>
+          <article class="dish reveal" data-cat="compartir">
+            <figure><img src="assets/img/fritura.jpg" alt="Fritura de pescado con calamares, limón y ensalada" loading="lazy" width="1400" height="1050"></figure>
             <div class="dish__body">
               <h3>Fritura de pescado</h3>
-              <p>Pescado frito, crujiente y para el centro de la mesa. “Buenísima”.</p>
+              <p>Calamares y pescadito frito, con su limón y un poco de ensalada.</p>
               <span class="tag">Para compartir</span>
             </div>
           </article>
-          <article class="dish reveal" data-cat="raciones">
-            <figure><img src="assets/img/chipirones.jpg" alt="Chipirones a la plancha con ajo y perejil" loading="lazy" width="1400" height="1050"></figure>
-            <div class="dish__body">
-              <h3>Chipirones</h3>
-              <p>Otro de los platos que más se repiten en las opiniones de los clientes.</p>
-              <span class="tag">Ración</span>
-            </div>
-          </article>
-          <article class="dish reveal" data-cat="raciones">
-            <figure><img src="assets/img/croquetas.jpg" alt="Croquetas caseras" loading="lazy" width="1400" height="1050"></figure>
+          <article class="dish reveal" data-cat="compartir">
+            <figure><img src="assets/img/croquetas.jpg" alt="Croquetas con patatas paja" loading="lazy" width="1400" height="1050"></figure>
             <div class="dish__body">
               <h3>Croquetas</h3>
-              <p>Imprescindibles para picar entre varios.</p>
-              <span class="tag">Ración</span>
+              <p>Doradas, con patatas paja en el centro del plato.</p>
+              <span class="tag">Para compartir</span>
             </div>
           </article>
-          <article class="dish reveal" data-cat="raciones">
-            <figure><img src="assets/img/calamares.jpg" alt="Calamares fritos" loading="lazy" width="1400" height="933"></figure>
+          <article class="dish reveal" data-cat="compartir">
+            <figure><img src="assets/img/bravas.jpg" alt="Patatas bravas con salsa" loading="lazy" width="1400" height="1050"></figure>
             <div class="dish__body">
-              <h3>Calamares</h3>
-              <p>Un clásico de cervecería para acompañar la caña.</p>
-              <span class="tag">Ración</span>
+              <h3>Patatas bravas</h3>
+              <p>Bien cubiertas de salsa. Un fijo para picar con la caña.</p>
+              <span class="tag">Para compartir</span>
             </div>
           </article>
-          <article class="dish reveal" data-cat="tapas">
-            <figure><img src="assets/img/tosta-jamon.jpg" alt="Tosta de jamón ibérico" loading="lazy" width="1400" height="941"></figure>
+          <article class="dish reveal" data-cat="compartir">
+            <figure><img src="assets/img/alitas.jpg" alt="Alitas de pollo con patatas paja" loading="lazy" width="1400" height="1050"></figure>
             <div class="dish__body">
-              <h3>Tostas</h3>
-              <p>Para picar en barra, solas o con un vino.</p>
-              <span class="tag">Tosta</span>
+              <h3>Alitas de pollo</h3>
+              <p>Fritas y doradas, con patatas paja.</p>
+              <span class="tag">Para compartir</span>
             </div>
           </article>
-          <article class="dish reveal" data-cat="tapas">
-            <figure><img src="assets/img/cana.jpg" alt="Caña de cerveza con aperitivo" loading="lazy" width="1400" height="933"></figure>
+          <article class="dish reveal" data-cat="platos">
+            <figure><img src="assets/img/filete.jpg" alt="Filete empanado con huevo frito y patatas" loading="lazy" width="1400" height="1050"></figure>
             <div class="dish__body">
-              <h3>Caña con tapa</h3>
-              <p>“Buena cerveza, buen pincho.” La caña bien tirada, como debe ser.</p>
-              <span class="tag">La de siempre</span>
+              <h3>Filete empanado</h3>
+              <p>Con huevo frito y patatas. Plato contundente para comer.</p>
+              <span class="tag">Plato</span>
             </div>
           </article>
-          <article class="dish reveal" data-cat="desayunos">
-            <figure><img src="assets/img/desayuno.jpg" alt="Desayuno con café y tostada" loading="lazy" width="1400" height="1050"></figure>
+          <article class="dish reveal" data-cat="platos">
+            <figure><img src="assets/img/ensalada.jpg" alt="Ensalada con queso a la plancha, tomate y reducción" loading="lazy" width="1400" height="1050"></figure>
             <div class="dish__body">
-              <h3>Desayunos</h3>
-              <p>Café y tostada desde las 8:15 para empezar el día en el barrio.</p>
-              <span class="tag">Desde 8:15</span>
+              <h3>Ensalada con queso</h3>
+              <p>Verdes, tomate, queso a la plancha y reducción por encima.</p>
+              <span class="tag">Plato</span>
             </div>
           </article>
         </div>
@@ -275,7 +264,7 @@
         <header class="head head--light head--row reveal">
           <div>
             <p class="eyebrow">Galería</p>
-            <h2>Barra, mesa y terraza</h2>
+            <h2>Así se come en Atenea</h2>
           </div>
           <div class="carousel__nav">
             <button class="round" data-prev aria-label="Foto anterior"><svg aria-hidden="true"><use href="#i-left"/></svg></button>
@@ -283,7 +272,19 @@
           </div>
         </header>
       </div>
+      <div class="carousel reveal" data-carousel tabindex="0" aria-label="Galería de fotos">
+        <figure class="slide slide--wide"><button data-lightbox="assets/img/fritura.jpg"><img src="assets/img/fritura.jpg" alt="Fritura de pescado" loading="lazy"></button><figcaption>Fritura de pescado</figcaption></figure>
+        <figure class="slide"><button data-lightbox="assets/img/croquetas.jpg"><img src="assets/img/croquetas.jpg" alt="Croquetas" loading="lazy"></button><figcaption>Croquetas</figcaption></figure>
+        <figure class="slide"><button data-lightbox="assets/img/bravas.jpg"><img src="assets/img/bravas.jpg" alt="Patatas bravas" loading="lazy"></button><figcaption>Bravas</figcaption></figure>
+        <figure class="slide slide--wide"><button data-lightbox="assets/img/ensalada.jpg"><img src="assets/img/ensalada.jpg" alt="Ensalada con queso" loading="lazy"></button><figcaption>Ensalada con queso</figcaption></figure>
+        <figure class="slide"><button data-lightbox="assets/img/alitas.jpg"><img src="assets/img/alitas.jpg" alt="Alitas de pollo" loading="lazy"></button><figcaption>Alitas</figcaption></figure>
+        <figure class="slide"><button data-lightbox="assets/img/pan.jpg"><img src="assets/img/pan.jpg" alt="Cesta de pan" loading="lazy"></button><figcaption>El pan de la mesa</figcaption></figure>
+        <figure class="slide slide--wide"><button data-lightbox="assets/img/filete.jpg"><img src="assets/img/filete.jpg" alt="Filete empanado con huevo" loading="lazy"></button><figcaption>Filete con huevo</figcaption></figure>
+      </div>
       <div class="wrap">
+        <div class="carousel__progress" aria-hidden="true"><span data-carousel-progress></span></div>
+        <p class="credits-note">Fotos reales de Cervecería Atenea, hechas por sus clientes y publicadas en Google Maps.</p>
+
         <div class="local reveal">
           <div class="local__frame">
             <iframe title="Street View de la terraza de Cervecería Atenea" src="https://www.google.com/maps/embed?pb=!3m1!1ses!6m7!1m6!2m2!1d39.861881!2d-3.9428174!3f95!4f5!5f1.5" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
@@ -291,24 +292,10 @@
           <div class="local__text">
             <p class="eyebrow">El local, tal cual</p>
             <h3>La terraza de Atenea</h3>
-            <p>Vista real de la fachada y la terraza en la calle Río Guadarrama, con Street View. Arrastra la imagen para mirar alrededor.</p>
-            <a class="btn btn--glass" href="https://www.google.com/maps/place/Cervecer%C3%ADa+Atenea/@39.861881,-3.9428174,17z/data=!4m6!3m5!1s0xd6a08e342409fc9:0x29fa2784ca78a8e!8m2!3d39.861881!4d-3.9428174!16s%2Fg%2F11f_44qv8k" target="_blank" rel="noopener">Ver las fotos del local en Google Maps<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <p>Fachada y terraza en la calle Río Guadarrama, con Street View. Arrastra la imagen para mirar alrededor.</p>
+            <a class="btn btn--glass" href="https://www.google.com/maps/place/Cervecer%C3%ADa+Atenea/@39.861881,-3.9428174,17z/data=!4m6!3m5!1s0xd6a08e342409fc9:0x29fa2784ca78a8e!8m2!3d39.861881!4d-3.9428174!16s%2Fg%2F11f_44qv8k" target="_blank" rel="noopener">Ver todas las fotos en Google Maps<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
           </div>
         </div>
-      </div>
-      <div class="carousel reveal" data-carousel tabindex="0" aria-label="Galería de fotos">
-        <figure class="slide slide--wide"><button data-lightbox="assets/img/grifo.jpg"><img src="assets/img/grifo.jpg" alt="Caña tirada directamente del grifo" loading="lazy"></button><figcaption>Del grifo</figcaption></figure>
-        <figure class="slide"><button data-lightbox="assets/img/venado.jpg"><img src="assets/img/venado.jpg" alt="Venado con patatas" loading="lazy"></button><figcaption>Venado</figcaption></figure>
-        <figure class="slide"><button data-lightbox="assets/img/terraza.jpg"><img src="assets/img/terraza.jpg" alt="Cañas en terraza" loading="lazy"></button><figcaption>Terraza</figcaption></figure>
-        <figure class="slide slide--wide"><button data-lightbox="assets/img/fritura.jpg"><img src="assets/img/fritura.jpg" alt="Fritura de pescado" loading="lazy"></button><figcaption>Fritura de pescado</figcaption></figure>
-        <figure class="slide"><button data-lightbox="assets/img/chipirones.jpg"><img src="assets/img/chipirones.jpg" alt="Chipirones" loading="lazy"></button><figcaption>Chipirones</figcaption></figure>
-        <figure class="slide"><button data-lightbox="assets/img/croquetas.jpg"><img src="assets/img/croquetas.jpg" alt="Croquetas" loading="lazy"></button><figcaption>Croquetas</figcaption></figure>
-        <figure class="slide slide--wide"><button data-lightbox="assets/img/toledo.jpg"><img src="assets/img/toledo.jpg" alt="Vista de Toledo con el Alcázar y la Catedral" loading="lazy"></button><figcaption>Toledo</figcaption></figure>
-        <figure class="slide"><button data-lightbox="assets/img/cana.jpg"><img src="assets/img/cana.jpg" alt="Caña con aperitivo" loading="lazy"></button><figcaption>La caña</figcaption></figure>
-      </div>
-      <div class="wrap">
-        <div class="carousel__progress" aria-hidden="true"><span data-carousel-progress></span></div>
-        <p class="credits-note">Las fotos del carrusel son ilustrativas, con licencia libre (Wikimedia Commons). Créditos al pie de la página.</p>
       </div>
     </section>
 
@@ -463,7 +450,7 @@
       </div>
     </div>
     <div class="wrap foot__credits">
-      <p>Fotografías de Wikimedia Commons: Koriela (CC BY-SA 3.0), Tamorlan (CC BY-SA 3.0), Gordito1869 (CC BY-SA 4.0), Juan Emilio Prades Bel (CC BY 4.0), Xemenendura (CC BY-SA 3.0), M a n u e l (CC BY 2.0), Cayetano (CC BY-SA 2.0), Diliff (CC BY 2.5). Imágenes redimensionadas.</p>
+      <p>Fotografías: clientes de Cervecería Atenea en Google Maps, usadas con permiso del negocio. Vista de la terraza: Google Street View.</p>
       <p>© <span data-year>2026</span> Cervecería Atenea · Toledo</p>
     </div>
   </footer>

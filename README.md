@@ -46,18 +46,8 @@ Sacados de la ficha de Google Maps (octubre de 2026):
 
 - Número exacto de la calle (Google solo muestra "45007 Toledo"; los directorios lo sitúan en C. Río Guadarrama).
 - Carta y precios: no están publicados en internet. La sección de carta muestra los platos que destacan las reseñas y está marcada como orientativa.
-- Fotos propias del local: la galería muestra la fachada y la terraza reales con Street View incrustado de Google (enlace a las fotos de la ficha de Maps). Las fotos del carrusel son ilustrativas, con licencia libre de Wikimedia Commons; conviene cambiarlas por fotos cedidas por el bar con los mismos nombres de archivo.
+- Fotos: son fotos reales del bar publicadas por clientes en su ficha de Google Maps, usadas con permiso del negocio. Si el dueño tiene fotos propias, se pueden sustituir con los mismos nombres de archivo en `assets/img/`.
 
-## Créditos de fotos (Wikimedia Commons)
+## Fotos
 
-| Archivo | Autor | Licencia |
-| --- | --- | --- |
-| grifo.jpg (recortada) | Koriela | CC BY-SA 3.0 |
-| cana.jpg | Tamorlan | CC BY-SA 3.0 |
-| calamares.jpg | Tamorlan | CC BY-SA 3.0 |
-| terraza.jpg | Gordito1869 | CC BY-SA 4.0 |
-| croquetas.jpg, chipirones.jpg, fritura.jpg | Juan Emilio Prades Bel | CC BY 4.0 |
-| venado.jpg | Xemenendura | CC BY-SA 3.0 |
-| tosta-jamon.jpg | M a n u e l | CC BY 2.0 |
-| desayuno.jpg | Cayetano | CC BY-SA 2.0 |
-| toledo.jpg | Diliff | CC BY 2.5 |
+`assets/img/`: fritura, croquetas, bravas, alitas, filete, ensalada y pan. Son fotos de clientes en la ficha de Google Maps de Cervecería Atenea, redimensionadas a 1400 px. La vista de la terraza es Google Street View incrustado.
